@@ -10,9 +10,13 @@ font-size:20px;
 
 div.scrollmenu {
   background-color: white;
-  overflow: hidden;
+  overflow: auto;
   
   white-space: nowrap;
+}
+
+.scrollmenu::-webkit-scrollbar{
+  width: 0;
 }
 
 div.scrollmenu a {

@@ -1,150 +1,174 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Gallery Pagination </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">	
-</head>
-<body>
+<div class="card_container">
+	<a href="https://drive.google.com/drive/folders/1C0iZkK9jSOpvEVScxE7N23vkF7TweNzG" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?technology"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
 
-<section class="gallery">
-	<div class="container">
-		<div class="title">
-			<h1>Gallery</h1>
-		</div>
-		<div class="gallery-items">
-			<div class="item">
-				<img src="images/1.jpg" alt="gallery" />
-				<div class="caption">
-					1
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/2.jpg" alt="gallery" />
-				<div class="caption">
-					2
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/3.jpg" alt="gallery" />
-				<div class="caption">
-					3
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/4.jpg" alt="gallery" />
-				<div class="caption">
-					4
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/5.jpg" alt="gallery" />
-				<div class="caption">
-					5
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/6.jpg" alt="gallery" />
-				<div class="caption">
-					6
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/7.jpg" alt="gallery" />
-				<div class="caption">
-					7
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/8.jpg" alt="gallery" />
-				<div class="caption">
-					8
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/9.jpg" alt="gallery" />
-				<div class="caption">
-					9
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/10.jpg" alt="gallery" />
-				<div class="caption">
-					10
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/11.jpg" alt="gallery" />
-				<div class="caption">
-					11
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/12.jpg" alt="gallery" />
-				<div class="caption">
-					12
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/13.jpg" alt="gallery" />
-				<div class="caption">
-					13
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/14.jpg" alt="gallery" />
-				<div class="caption">
-					14
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/15.jpg" alt="gallery" />
-				<div class="caption">
-					15
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/16.jpg" alt="gallery" />
-				<div class="caption">
-					16
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/17.jpg" alt="gallery" />
-				<div class="caption">
-					17
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/18.jpg" alt="gallery" />
-				<div class="caption">
-					18
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/19.jpg" alt="gallery" />
-				<div class="caption">
-					19
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/20.jpg" alt="gallery" />
-				<div class="caption">
-					20
-				</div>
-			</div>
-		</div>
-		<div class="pagination">
-			<div class="prev">Prev</div>
-			<div class="page">Page <span class="page-num"></span></div>
-			<div class="next">Next</div>
-		</div>
+	<div class="card_title_container">
+		<a href="https://drive.google.com/drive/folders/1C0iZkK9jSOpvEVScxE7N23vkF7TweNzG" class="card_title_anchor">
+			<h2 class="card_title">Wedding album</h2>
+		</a>
+		<p class="card_desc">
+		  Wedding Album design concept.. 
+		</p>
 	</div>
-</section>
 
-<script src="script.js"></script>
-</body>
-</html>
+   
+</div>
+<!-- card 1 ends here -->
 
+<div class="card_container">
+	<a href="#" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?nutrition"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
 
+	<div class="card_title_container">
+		<a href="#" class="card_title_anchor">
+			<h2 class="card_title">Rainy effect</h2>
+		</a>
+		<p class="card_desc">
+		   Rainy background monsoon effect 
+		</p>
+	</div>
 
+   
+</div>
+
+<div class="card_container">
+	<a href="#" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?travel"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
+
+	<div class="card_title_container">
+		<a href="#" class="card_title_anchor">
+			<h2 class="card_title">Glass city </h2>
+		</a>
+		<p class="card_desc">
+		   City  background building roads 
+		</p>
+	</div>
+
+   
+</div>
+
+<div class="card_container">
+	<a href="#" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?productivity"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
+
+	<div class="card_title_container">
+		<a href="#" class="card_title_anchor">
+			<h2 class="card_title">Nature background</h2>
+		</a>
+		<p class="card_desc">
+			Nature scene backgronds animals tree rivers
+		</p>
+	</div>
+
+   
+</div>
+
+<div class="card_container">
+	<a href="#" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?mindfulness"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
+
+	<div class="card_title_container">
+		<a href="#" class="card_title_anchor">
+			<h2 class="card_title">Stars universe</h2>
+		</a>
+		<p class="card_desc">
+		  Galaxy backgrounds stars night sky 
+		</p>
+	</div>
+
+   
+</div>
+
+<div class="card_container">
+	<a href="#" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?photography"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
+
+	<div class="card_title_container">
+		<a href="#" class="card_title_anchor">
+			<h2 class="card_title">Sunset background </h2>
+		</a>
+		<p class="card_desc">
+			Asthetic sunset backgroud evining morning 
+		</p>
+	</div>
+
+   
+</div>
+
+<div class="card_container">
+	<a href="#" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?healthy"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
+
+	<div class="card_title_container">
+		<a href="#" class="card_title_anchor">
+			<h2 class="card_title">Valentine </h2>
+		</a>
+		<p class="card_desc">
+			Love background for couples
+		</p>
+	</div>
+
+</div>
+
+<div class="card_container">
+	<a href="#" class="card_image_container">
+		<img
+			src="https://source.unsplash.com/random/600×400?sustainability"
+			alt="card 1 image"
+			class="card_image"
+			loading="lazy"
+		/>
+	</a>
+
+	<div class="card_title_container">
+		<a href="#" class="card_title_anchor">
+			<h2 class="card_title">Sci fic</h2>
+		</a>
+		<p class="card_desc">
+			Science fiction background crazy machines
+		</p>
+	</div>
+
+</div>

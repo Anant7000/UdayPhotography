@@ -1,68 +1,32 @@
- 
- const galleryItems=document.querySelector(".gallery-items").children;
- const prev=document.querySelector(".prev");
- const next=document.querySelector(".next");
- const page=document.querySelector(".page-num");
- const maxItem=8;
- let index=1;
-  
-  const pagination=Math.ceil(galleryItems.length/maxItem);
-  console.log(pagination)
 
-  prev.addEventListener("click",function(){
-    index--;
-    check();
-    showItems();
-  })
-  next.addEventListener("click",function(){
-  	index++;
-  	check();
-    showItems();  
-  })
-
-  function check(){
-  	 if(index==pagination){
-  	 	next.classList.add("disabled");
-  	 }
-  	 else{
-  	   next.classList.remove("disabled");	
-  	 }
-
-  	 if(index==1){
-  	 	prev.classList.add("disabled");
-  	 }
-  	 else{
-  	   prev.classList.remove("disabled");	
-  	 }
-  }
-
-  function showItems() {
-  	 for(let i=0;i<galleryItems.length; i++){
-  	 	galleryItems[i].classList.remove("show");
-  	 	galleryItems[i].classList.add("hide");
+Pic=['Wedding album','Photography','Photographer','moviecamera','camera','Group Photo','fashion','photographymodel'];
 
 
-  	    if(i>=(index*maxItem)-maxItem && i<index*maxItem){
-  	 	  // if i greater than and equal to (index*maxItem)-maxItem;
-  		  // means  (1*8)-8=0 if index=2 then (2*8)-8=8
-          galleryItems[i].classList.remove("hide");
-          galleryItems[i].classList.add("show");
-  	    }
-  	    page.innerHTML=index;
-  	 }
+coverpic=['Indianwedding','Photography','Photographer','moviecamera','camera','director','fashion','acting'];
 
-  	 	
-  }
+var parentDiv = document.querySelector(".main_container");
 
-  window.onload=function(){
-  	showItems();
-  	check();
-  }
+for (let index = 0; index < 7; index++) {
+  var newDiv = document.createElement('div');
+  newDiv.classList.add('card_container');
 
+  newDiv.innerHTML = `
+    <a href="https://drive.google.com/drive/folders/1C0iZkK9jSOpvEVScxE7N23vkF7TweNzG" class="card_image_container">
+      <img
+        src="https://source.unsplash.com/random/600×400?${coverpic[index ]}"
+        alt="card 1 image"
+        class="card_image"
+        loading="lazy"
+      />
+    </a>
 
+    <div class="card_title_container">
+      <a href="https://drive.google.com/drive/folders/1C0iZkK9jSOpvEVScxE7N23vkF7TweNzG" class="card_title_anchor">
+        <h2 class="card_title">${Pic[index]}</h2>
+      </a>
+     
+    </div>
+  `;
 
-
-
-
-
-
+  parentDiv.appendChild(newDiv);
+}

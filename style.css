@@ -3,17 +3,31 @@
   src: url('./Fonts/Nunito-VariableFont_wght.ttf')  format('truetype');
 }
 
-.nav-title{
+.logo{
  font-family: 'AcrosstheRoad';
-font-size:20px;
+font-size:1.5rem;
+font-weight: 800;
+text-decoration: none;
+color: black;
+padding: 15px;
 
 }
 
+@media (min-width:500px) {
+ .logo{
+  font-size:2rem;
+ }
+}
+
+
 div.scrollmenu {
-  background-color: white;
+  background-color:'#fff';
   overflow: auto;
-  
+  height: 3rem;
   white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .scrollmenu::-webkit-scrollbar{
@@ -21,12 +35,15 @@ div.scrollmenu {
 }
 
 div.scrollmenu a {
-  display: inline-block;
+  
+ 
   color: black;
-  text-align: center;
-  padding: 14px;
+  
+  padding: 3px;
+  margin: 0 10px;
   border-radius: 10px;
   text-decoration: none;
+ 
 }
 
 div.scrollmenu a:hover {

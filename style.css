@@ -20,14 +20,19 @@ padding: 15px;
 }
 
 
+
 div.scrollmenu {
-  background-color:'#fff';
+  background-color:white;
   overflow: auto;
-  height: 3rem;
+  height: auto;
   white-space: nowrap;
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-bottom: 0.5px solid black;
+  border-top: 0.5px solid black;
+ 
+ 
 }
 
 .scrollmenu::-webkit-scrollbar{
@@ -36,11 +41,11 @@ div.scrollmenu {
 
 div.scrollmenu a {
   
- 
+  white-space: nowrap;
   color: black;
-  
-  padding: 3px;
-  margin: 0 10px;
+  /* overflow: auto; */
+  padding: 5px;
+  margin: 10px;
   border-radius: 10px;
   text-decoration: none;
  
